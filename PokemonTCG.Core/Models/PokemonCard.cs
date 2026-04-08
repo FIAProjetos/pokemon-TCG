@@ -9,5 +9,6 @@ namespace PokemonTCG.Core.Models
         public EnergyType Weakness { get; set; }
         public List<Attack> Attacks { get; set; } = new();
         public List<EnergyType> AttachedEnergies { get; set; } = new();
+        public int RetreatCost { get; set; } = 1;
     }
 }
