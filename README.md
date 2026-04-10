@@ -16,5 +16,5 @@ A versões suportadas são:
 
 exemplo:
 ```bash
-dotnet run --framework net10.0 Program.cs
+dotnet run --framework net10.0 --project PokemonTCG.Web
 ```
