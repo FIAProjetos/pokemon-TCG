@@ -8,13 +8,8 @@ Engine para pokémon TCG
 
 ## Incialização
 
-Para inicializar o projeto via comando, especifique a versão do dotnet a ser utilizada.
-A versões suportadas são: 
-- net8.0
-- net9.0
-- net10.0
+Para inicializar o projeto via comando:
 
-exemplo:
 ```bash
 dotnet run --project PokemonTCG
 ```
