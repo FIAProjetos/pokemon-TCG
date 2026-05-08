@@ -7,12 +7,44 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            <a href="https://github.com/KDMint" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2504/2504911.png" class="github-icon" alt="github">
+            </a>
+            <a href="mailto:khadijalima2005@gmail.com">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="email-icon" alt="email">
+            </a>
         </div>
 
         <article class="content px-4">
             @Body
+
+            <div class="screen-layout">
+                <div class="back">
+                </div>
+                <div class="border">
+                    <div class="screen">
+                    </div>
+                    <svg class="detail1">
+                        <circle r="23" cx="25" cy="25" fill="red" stroke="black" stroke-width="3" />
+                    </svg>
+                    <svg class="detail2">
+                        @for (int i = 0; i < 5; i++)
+                        {
+                            int yPosition = (i * 15) + 10;
+                            <rect width="160" height="5" x="10" y="@yPosition" fill="black" />
+                        }
+                    </svg>
+                    <svg class="detail3" viewBox="0 0 50 50">
+                        @for (int i = 0; i < 2; i++)
+                        {
+                            int xPosition = (i * 30) + 10;
+                            <circle r="6" cx="@xPosition" cy="25" fill="red" stroke="black" stroke-width="2" />
+                        }
+                    </svg>
+                </div>
+            </div>
         </article>
+ 
     </main>
 </div>
 
