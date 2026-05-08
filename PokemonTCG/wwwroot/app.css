@@ -3,7 +3,9 @@ html, body {
 }
 
 a, .btn-link {
-    color: #006bb7;
+    text-decoration: none;
+    border-bottom: none;
+    color: black;
 }
 
 .btn-primary {
@@ -57,4 +59,33 @@ h1:focus {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
+}
+
+.open-btn {
+    background-color: yellow;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: none;
+    
+    /* Mask to change PNG color*/
+    -webkit-mask-image: url("https://cdn-icons-png.flaticon.com/512/9903/9903638.png");
+    mask-image: url("https://cdn-icons-png.flaticon.com/512/9903/9903638.png");
+    mask-repeat: no-repeat;
+    mask-size: 20px 20px;
+}
+
+.github-icon {
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.email-icon {
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+    vertical-align: middle;
 }
